@@ -1,5 +1,5 @@
-<H3>ENTER YOUR NAME</H3> PREM.R
-<H3>ENTER YOUR REGISTER NO.</H3> 212223240124
+PREM.R
+ 212223240124
 <H3>EX. NO.6</H3>
 <H3>DATE:</H3> 24/02/24
 <H1 ALIGN =CENTER>Implementation of Semantic ANalysis</H1>
@@ -17,7 +17,7 @@ Step 5:Iterate through each word in the tokenized text.<br>
 •	Extract synonyms and antonyms using lemma.name() and lemma.antonyms()[0].name() respectively.<br>
 •	Print the unique sets of synonyms and antonyms.
 <H3>Program:</H3>
-```
+
 import nltk
 from nltk.corpus import wordnet
 import csv
@@ -25,7 +25,7 @@ nltk.download('averaged_perceptron_tagger')
 nltk.download('wordnet')
 nltk.download('punkt')
 
-# Function to identify verbs in a sentence
+
 def get_verbs(sentence):
     verbs = []
     pos_tags = nltk.pos_tag(nltk.word_tokenize(sentence))
@@ -47,8 +47,7 @@ def read_text_file(file_path):
     with open(file_path, 'r') as file:
         text = file.read()
     return text
-```
-```
+
 def main():
     file_path = 'sample.txt'
 
@@ -74,7 +73,7 @@ def main():
 
 if __name__ == '__main__':
     main()
-```
+
 
 
 OUTPUT:
