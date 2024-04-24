@@ -47,8 +47,8 @@ def read_text_file(file_path):
     with open(file_path, 'r') as file:
         text = file.read()
     return text
-
-
+```
+```
 def main():
     file_path = 'sample.txt'
 
@@ -75,7 +75,8 @@ def main():
 if __name__ == '__main__':
     main()
 ```
-```
+
+
 OUTPUT:
 ![Screenshot 2024-04-24 081822](https://github.com/PREM3112/Ex-6--AAI/assets/145449383/67db9e0b-a0e6-4ec8-8eca-c15eea9c09da)
 
