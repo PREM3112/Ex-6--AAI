@@ -75,11 +75,12 @@ def main():
 if __name__ == '__main__':
     main()
 ```
+OUTPUT:
+![Screenshot 2024-04-24 081822](https://github.com/PREM3112/Ex-6--AAI/assets/145449383/67db9e0b-a0e6-4ec8-8eca-c15eea9c09da)
 
 
 
-<H3>OUTPUT:<H3>
-![Screenshot 2024-04-24 081822](https://github.com/PREM3112/Ex-6--AAI/assets/145449383/1d1489c9-ce97-47a9-9673-e176b28c4495)
+
 
 
 <H3>Result:</H3>
