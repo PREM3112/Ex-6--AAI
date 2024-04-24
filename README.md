@@ -17,7 +17,7 @@ Step 5:Iterate through each word in the tokenized text.<br>
 •	Extract synonyms and antonyms using lemma.name() and lemma.antonyms()[0].name() respectively.<br>
 •	Print the unique sets of synonyms and antonyms.
 <H3>Program:</H3>
-
+```
 import nltk
 from nltk.corpus import wordnet
 import csv
@@ -73,6 +73,8 @@ def main():
 
 if __name__ == '__main__':
     main()
+    ```
+
 
 
 
